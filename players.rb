@@ -1,7 +1,7 @@
-class Player
+class Players
   PLAYER_LIFE = 3
 
-  attr_accessor :name
+  attr_accessor :name, :current_life
 
   def initialize(name)
     @name = name
@@ -14,8 +14,8 @@ class Player
   end
 end
 
-player1 = Player.new("player1")
-player2 = Player.new("player2")
+# player1 = Player.new("player1")
+# player2 = Player.new("player2")
 
-puts player1.lose
-puts player1.lose
+# puts player1.lose
+# puts player1.lose
